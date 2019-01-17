@@ -1,0 +1,65 @@
+body{
+	background-color: rgb(0, 0, 0);
+	overflow: hidden;
+	/*font-family: Times New Roman;*/
+}
+
+#scene{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-position: center;
+}
+
+.center-vP{
+	width: 100%;
+	height: 100vh;
+
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+/* img */
+#bg-1{
+	width: 100%;
+	height: 100vh;	
+}
+
+.logo-svg{
+	position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    bottom: 3.5em;
+}
+
+/* LETTER's */
+/* N */
+#bg-2{
+	/*text-indent: 3em;*/
+	color: rgb(255, 255, 255);
+
+	padding-top: 12em;
+	align-items: center;
+}
+/* O O */
+#bg-3{
+	letter-spacing: 17em;
+	text-indent: 17em;
+	color: rgb(255, 255, 255);	
+}
+/* O2 */
+/*#bg-4{
+	text-indent: 5em;
+	color: rgb(255, 255, 255);	
+}*/
+
+/* S */
+#bg-5{
+	/*text-indent: 3em;*/
+	color: rgb(255, 255, 255);
+
+	margin-top: -17em;	
+	align-items: center;
+}
